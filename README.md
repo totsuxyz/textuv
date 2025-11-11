@@ -2,13 +2,15 @@
 
 Scaffold a Textual + uv application.
 
-## Install & Run
+- GitHub: https://github.com/totsuxyz/textuv
 
-- Zero-install:
+## Install & Run (Usage)
+
+- Zero-install (recommended): use the bare form (no `new`)
 
 ```bash
 uvx textuv --help
-uvx textuv new my-textual-app
+uvx textuv my-textual-app
 ```
 
 - Or install the CLI locally:
@@ -16,8 +18,11 @@ uvx textuv new my-textual-app
 ```bash
 uv tool install .
 textuv --help
-textuv new my-textual-app
+textuv my-textual-app
 ```
+
+Note:
+- The `new` subcommand form (`textuv new <name>`) is not supported at the moment due to argument parsing precedence. Please use the bare form: `textuv <name>`.
 
 ## Generated project
 
@@ -36,5 +41,9 @@ uv pip install -e .
 uv pip install -e ".[dev]"
 uv run textual run --dev src/<package>/app.py
 ```
+
+## License
+
+MIT
 
 

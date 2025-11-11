@@ -1,6 +1,6 @@
 [project]
 name = "textuv"
-version = "0.1.2"
+version = "0.1.3"
 description = "CLI to scaffold a Textual + uv application"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -19,9 +19,9 @@ authors = [{ name = "yosui", email = "yosui262@gmail.com" }]
 text = "MIT"
 
 [project.urls]
-Homepage = "https://github.com/yourname/textuv"
-Repository = "https://github.com/yourname/textuv"
-Issues = "https://github.com/yourname/textuv/issues"
+Homepage = "https://github.com/totsuxyz/textuv"
+Repository = "https://github.com/totsuxyz/textuv"
+Issues = "https://github.com/totsuxyz/textuv/issues"
  
 
 [project.optional-dependencies]
